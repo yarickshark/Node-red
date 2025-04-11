@@ -90,10 +90,10 @@ module.exports = {
      */
 
     /** Option 1: static object */
-    //https: {
-    //  key: require("fs").readFileSync('privkey.pem'),
-    //  cert: require("fs").readFileSync('cert.pem')
-    //},
+    https: {
+      key: require("fs").readFileSync('privkey.pem'),
+      cert: require("fs").readFileSync('cert.pem')
+    },
 
     /** Option 2: function that returns the HTTP configuration object */
     // https: function() {
@@ -114,7 +114,7 @@ module.exports = {
     /** The following property can be used to cause insecure HTTP connections to
      * be redirected to HTTPS.
      */
-    requireHttps: true,
+    //requireHttps: true,
 
     /** To password protect the node-defined HTTP endpoints (httpNodeRoot),
      * including node-red-dashboard, or the static content (httpStatic), the
@@ -122,8 +122,8 @@ module.exports = {
      * The `pass` field is a bcrypt hash of the password.
      * See https://nodered.org/docs/security.html#generating-the-password-hash
      */
-    httpNodeAuth: {user:"yarikshark",pass:"$2y$08$GBnKCo9aodMarxrjzVItteZmtO/9Vqjob/qFGM87F4yOXXNlYDth6"},
-    httpStaticAuth: {user:"yarikshark",pass:"$2y$08$GBnKCo9aodMarxrjzVItteZmtO/9Vqjob/qFGM87F4yOXXNlYDth6"},
+    //httpNodeAuth: {user:"yarikshark",pass:"$2y$08$GBnKCo9aodMarxrjzVItteZmtO/9Vqjob/qFGM87F4yOXXNlYDth6"},
+    //httpStaticAuth: {user:"yarikshark",pass:"$2y$08$GBnKCo9aodMarxrjzVItteZmtO/9Vqjob/qFGM87F4yOXXNlYDth6"},
 
 /*******************************************************************************
  * Server Settings
