@@ -90,10 +90,10 @@ module.exports = {
      */
 
     /** Option 1: static object */
-    https: {
-      key: require("fs").readFileSync('privkey.pem'),
-      cert: require("fs").readFileSync('cert.pem')
-    },
+    //https: {
+    //  key: require("fs").readFileSync('privkey.pem'),
+    //  cert: require("fs").readFileSync('cert.pem')
+    //},
 
     /** Option 2: function that returns the HTTP configuration object */
     // https: function() {
@@ -123,7 +123,7 @@ module.exports = {
      * See https://nodered.org/docs/security.html#generating-the-password-hash
      */
     httpNodeAuth: {user:"yarikshark",pass:"$2y$08$GBnKCo9aodMarxrjzVItteZmtO/9Vqjob/qFGM87F4yOXXNlYDth6"},
-    httpStaticAuth: {user:"user",pass:"$2y$08$GBnKCo9aodMarxrjzVItteZmtO/9Vqjob/qFGM87F4yOXXNlYDth6"},
+    httpStaticAuth: {user:"yarikshark",pass:"$2y$08$GBnKCo9aodMarxrjzVItteZmtO/9Vqjob/qFGM87F4yOXXNlYDth6"},
 
 /*******************************************************************************
  * Server Settings
