@@ -426,5 +426,35 @@
                 "file": "C:\\Users\\Ярослав\\AppData\\Roaming\\npm\\node_modules\\node-red\\node_modules\\@node-red\\nodes\\core\\storage\\23-watch.js"
             }
         }
+    },
+    "node-red-contrib-binance": {
+        "name": "node-red-contrib-binance",
+        "version": "0.1.7",
+        "local": true,
+        "user": true,
+        "nodes": {
+            "binance": {
+                "name": "binance",
+                "types": [
+                    "binance-credentials",
+                    "binance-get-price",
+                    "binance-get-all-prices",
+                    "binance-get-book-ticker",
+                    "binance-get-day-stats",
+                    "binance-get-candlesticks",
+                    "binance-get-balance",
+                    "binance-get-orders",
+                    "binance-cancel-orders",
+                    "binance-get-trade-history",
+                    "binance-buy",
+                    "binance-sell"
+                ],
+                "enabled": true,
+                "local": true,
+                "user": false,
+                "module": "node-red-contrib-binance",
+                "file": "\\Users\\Ярослав\\.node-red\\node_modules\\node-red-contrib-binance\\binance.js"
+            }
+        }
     }
 }
